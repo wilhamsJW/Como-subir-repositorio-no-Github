@@ -1,10 +1,14 @@
-git add .  Para subir um repositório remoto
+ COMO SUBIR UM REPOSITÓRIO PARA O GITHUB
 
 
 entrar na branch master
-clonar
+
+clonar COM HTTP DO GITHUB
+
 copiar a pasta meste para a pasta clone
+
 entra na pasta clonada
+
 git add . (todo arquivo modificado ele envia, cria um index p enviar)
 
 
@@ -37,4 +41,31 @@ $ git remote
 
 $ git remote -v
 
-isto é um teste
+    
+
+
+         ---->>> ERROS EXISTENTE ---> 
+         
+         
+         $ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+    Esse erro está pedindo pra add o upstream, execute o código:
+
+    git remote add upstream https://github.com/wilhamsJW/Como-criar-repositorio-no-Github.git
+
+
+
+
+
+    ----->>>E se quiser mudar o seu repo (origin) pra acessar via SSH (pois está acessando via
+     HTTPS), só executar:
+
+git remote set-url origin  https://github.com/wilhamsJW/Como-criar-repositorio-no-Github.git
+
+
+mais testes
