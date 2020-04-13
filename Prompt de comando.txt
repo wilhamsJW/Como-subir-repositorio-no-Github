@@ -1,0 +1,85 @@
+---->>>Comandos do Windows:
+
+Prompt de comandos:
+
+cd ou changed directory.:
+
+   Serve pra entrar e sair de pastas
+   digitando cd "espaço" e o nome da pasta vc entra na pasta
+   digitando cd.. vc volta uma pasta
+      "   "  cd\ (chamado cd contra barra cd\) vc volta ao directory raiz.
+      "   "  cd../ sai do diretório
+ 
+cls:
+
+    Serve pra limpar a tela dos comandos digitados
+
+dir:
+
+    Serve pra listar arquivos e directorys
+
+md ou mkdir --> siginifica makedirectory ou criar diretório:
+
+    Serve pra criar um diretório ou criar pasta
+    Digite md "espaço" e o nome da pasta a ser criada
+    Se vc quiser criar uma pasta com espaços tipo uma frase, vc tem que colcoar aspas
+    Sem aspas o comando não cria a pasta com a frase inteira
+    Ex.: md "esta é uma pasta" 
+
+copy ou cópia:  
+
+     Acessa a área que vc da pasta que vc quer copiar, tipo entar no desktop, documentos etc..
+     A pasta que vai ser copiada e pra onde vai ser copiada tem que tá dentro da mesma área de arquivos
+     A sintaxe é : copy nomedapasta C:nome da pasta q vai receber os arquivos
+     ex.: copy Portfolio.code-workspace C:zengarden
+
+
+
+   
+del:
+
+    Serve pra apagar arquivos e diretorios
+    ex.: del nomedoarquivo
+
+
+rd ou rdmir:
+     
+     Serve pra remover pastas e subpastas e diretorios
+     ex.: rd nomedapasta
+     ex.: rd /s /q --> deleta todas a pastas e subpastas q o rd sozinho não consegue apagar  
+
+exit: 
+       Nem precisa falar
+
+
+
+
+                                                                    ------->>>>>COMANDOS PARA EXCLUIR ARQUIVOS OCULTOS DA LIXEIRA:<<<<<---------
+
+ PRIMEIRAMENTE TECLE NA TECLA WIDOWS R
+ Irá abir o cmd, em seguida digite o comando: recent
+                                              e apague os arquivos que aparecem
+                           depois o comando:  %temp%
+                                              e apague os arquivos que aparecem
+			   depois o comando:  temp
+                                              e apague os arquivos que aparecem
+                           depois o comando:  prefetch				                      
+                                    e apague os arquivos que aparecem
+                           depois vá na lixeira e apague os arquivos que foram pra lá.
+
+
+
+
+
+                                                                              -------->>>>>>>>> SAIR DA PASTA SYSTEM32 <<<<<<-----------------
+
+Dificuldade para sair da system32/navegar entre as pastas
+Execute os comandos no terminal:
+
+1 - cd ~/ (Isso irá pra usa pasta de Documentos) 2 - 
+mkdir semanaomnistack11 (Isso irá criar um diretório chamado omnistack11) 3 - 
+cd semanaomnistack11 4 - 
+mkdir aulas 5 -
+ cd aulas 6 - 
+mkdir backend 7 - 
+cd backend

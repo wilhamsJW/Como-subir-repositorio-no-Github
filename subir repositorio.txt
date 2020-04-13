@@ -1,0 +1,40 @@
+git add .  Para subir um repositório remoto
+
+
+entrar na branch master
+clonar
+copiar a pasta meste para a pasta clone
+entra na pasta clonada
+git add . (todo arquivo modificado ele envia, cria um index p enviar)
+
+
+
+
+git commit -m ""
+git pull (só é usado pra pegar algo do remoto e trazer pra sua máquina)
+git push
+ 
+
+
+
+COMANDOS:
+cd serve pra acessar uma pasta, se a pasta tiver no desktop, coloca-se cd desktop
+cd + o nome da pasta serve pra acessa a pasta
+cd
+
+
+
+
+   --->REMOVER UM REMOTE:
+
+$ git remote rm origin .... origin é o nome padrâo do remote
+
+   --->VERIFICAR SE HÁ UM REMOTE:
+
+$ git remote
+
+   --->SABER QUEM É O REMOTE ou verificar remote
+
+$ git remote -v
+
+isto é um teste
