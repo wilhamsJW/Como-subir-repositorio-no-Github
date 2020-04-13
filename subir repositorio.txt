@@ -14,9 +14,9 @@ git add . (todo arquivo modificado ele envia, cria um index p enviar)
 
 
 
-git commit -m ""
+git commit -m "qualquernome"
 git pull (só é usado pra pegar algo do remoto e trazer pra sua máquina)
-git push
+git push (serve pra enviar arquivos da sua máquina p/ o repositorio remoto)
  
 
 
