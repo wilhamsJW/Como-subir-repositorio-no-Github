@@ -1,7 +1,7 @@
  COMO SUBIR UM REPOSITÓRIO PARA O GITHUB
 
 
-entrar na branch master
+
 
 clonar COM HTTP DO GITHUB
 
@@ -68,4 +68,20 @@ To push the current branch and set the remote as upstream, use
 git remote set-url origin  https://github.com/wilhamsJW/Como-criar-repositorio-no-Github.git
 
 
-mais testes
+---->>>   ESTE É UM ERRO Q APARECE AS VEZES AO DÁ UM GIT PUSH
+
+
+$ git push
+To https://github.com/wilhamsJW/Emascript6.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/wilhamsJW/Emascript6.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+ELE pede pra dá um git pull, entâo add o arquivo com add .   e commit e logo após de um git pull orgin master
+depois de um git push
+
