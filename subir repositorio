@@ -29,7 +29,9 @@ cd
 
 
 
-   --->REMOVER UM REMOTE::
+   --->REMOVER    UM     REMOTE::
+
+$ git remote remove origin  
 
 $ git remote rm origin .... origin é o nome padrâo do remote
 
